@@ -1,0 +1,44 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /* Acerca de mi */
+  
+  #Acercademi {
+    background-image: url("../img/paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  /* Publicaciones */
+  
+  #Publicaciones .image-top {
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  
+  #Desarrollo-web {
+    text-align: center;
+    font-size: 2em;
+  }
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+  
